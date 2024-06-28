@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/swiper-bundle.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>grid-test</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="header__wrapper">
+          <nav class="nav">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="#" class="nav__link">Text</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">Text</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">Text</a>
+              </li>
+              <button class="popup-btn">Open pop-up button</button>
+            </ul>
+          </nav>
+          <button class="burger"><span></span></button>
+        </div>
+        <!-- nav.nav-menu>ul.nav-menu__list>li.nav-menu__item>a.nav-menu__link -->
+      </header>
+      <section class="banner">
+        <div class="banner__wrapper">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <h1>H1&nbsp;&nbsp;text</h1>
+                <button class="popup-btn">Open pop-up button</button>
+              </div>
+              <div class="swiper-slide">
+                <h1>H1 text</h1>
+                <button class="popup-btn">Open pop-up button</button>
+              </div>
+              <div class="swiper-slide">
+                <h1>H1 text</h1>
+                <button class="popup-btn">Open pop-up button</button>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-arrow-wraper">
+            <div class="button-prev"></div>
+            <div class="button-next"></div>
+          </div>
+        </div>
+      </section>
+      <section class="block-4">
+        <h2 class="title">H2 text</h2>
+        <!-- попробовал реализовать на гридах, не пиксель перфикт конечно, но близко,
+          можно конечно было бы решить за счет разделения на 2 блока -->
+        <div class="block-4__container">
+          <div class="block-4__item"></div>
+          <div class="block-4__item"></div>
+          <div class="block-4__item"></div>
+          <div class="block-4__item"></div>
+        </div>
+      </section>
+      <section class="grid">
+        <h2 class="title">H2 text</h2>
+        <div class="grid__wrapper">
+          <div class="grid__item"></div>
+          <div class="grid__item"></div>
+          <div class="grid__item"></div>
+          <div class="grid__item"></div>
+          <div class="grid__item"></div>
+        </div>
+      </section>
+      <section class="feedback-btn">
+        <p class="feedback-btn__descript">Text utp</p>
+        <button class="popup-btn">Open pop-up button</button>
+      </section>
+      <div class="modal-popup__wrapper">
+        <div class="modal-popup">
+          <p>Pop-up</p>
+          <button>X</button>
+        </div>
+      </div>
+      <footer class="footer">
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#" class="nav__link">Text</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Text</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Text</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Text</a>
+            </li>
+          </ul>
+        </nav>
+      </footer>
+    </div>
+    <script src="./js/swiper-bundle.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
