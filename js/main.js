@@ -9,6 +9,7 @@ window.addEventListener('load', () => {
   });
   // слайдер баннер
   const body = document.body;
+  const html = document.querySelector('html');
   // popup modal
 
   const popupBtns = document.querySelectorAll('.popup-btn');
@@ -26,11 +27,13 @@ window.addEventListener('load', () => {
   function addActiveClassModal() {
     modalPopup.classList.add('active-modal');
     body.classList.add('scroll-lock');
+    html.classList.add('add-padding');
   }
   function removeActiveClassModal(e) {
     if(e.target != modalPopupWindow) {
       modalPopup.classList.remove('active-modal');
       body.classList.remove('scroll-lock');
+      html.classList.remove('add-padding');
     }
   }
   // popup modal
@@ -48,6 +51,7 @@ window.addEventListener('load', () => {
     burgerBtn.classList.toggle('active-burger');
     navMenu.classList.toggle('active-menu');
     body.classList.toggle('scroll-lock');
+    html.classList.toggle('add-padding');
   }
   // burger
 });
