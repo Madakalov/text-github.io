@@ -429,4 +429,7 @@ section {
   .grid__item {
     border-radius: 10px;
   }
+  .burger.active-burger {
+    height: 27px;
+  }
 }/*# sourceMappingURL=style.css.map */

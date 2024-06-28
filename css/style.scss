@@ -417,6 +417,7 @@ section {
     .feedback-btn__descript {
         font-size: 25px;
     }
+    
 }
 @media screen and (max-width: 768px) {
     section {
@@ -452,6 +453,11 @@ section {
     }
     .grid__item {
         border-radius: 10px;
+    }
+    .burger {
+        &.active-burger {
+            height: 27px;
+        }
     }
 }
 // media
